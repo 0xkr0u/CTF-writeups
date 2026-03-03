@@ -45,3 +45,18 @@ Image Size                      : 128x128
 Megapixels                      : 0.016
 ```
 
+So i tried taking my first outcome as my decision maker.<br>
+and i tried to unzip the document using the following command from dd since steghide doesnt accept png i think. <br>
+```bash
+dd if=red.png of=red.zlib skip=284 bs=1 
+512+0 records in
+512+0 records out
+512 bytes copied, 0.496899 s, 1.0 kB/s
+```
+so i thought that the document was holding important information and decided to print some of it:
+```bash
+strings red.zlib
+IEND
+```
+
+Holding the string can be so important after <br>
