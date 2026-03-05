@@ -1,5 +1,5 @@
 # Wireshark doo dooo do doo...
-Softares used to analyze this is:<br>
+Tools used to analyze this is:<br>
 1. ```Wireshark```
 2. ```www.dcode.fr (site)```
 3. ```eyes```
