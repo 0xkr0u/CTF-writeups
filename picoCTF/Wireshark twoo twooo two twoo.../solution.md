@@ -240,7 +240,7 @@ phoCTF{dns_3xf1l_ftw_duadbeef}
 #What does a tcp do, why is it important and what information is really needed for a forenics aspect and network security engineer aspect.  
 #who configures the tcp
 #if a network engineer should be able to configure a tcp then where should someone learn it 
-#when someone is investigating a tcp file what should he look for 
+#when someone is investigating a tcp protocol what should he look for 
 #why is there an occurence of using two versions to get the Application data"
 15   0.053117 192.168.38.105 → 192.168.38.104 TLSv1.3 219 Application Data
 and 
