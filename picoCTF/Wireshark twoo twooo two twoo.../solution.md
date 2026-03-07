@@ -180,20 +180,59 @@ zpt1YuKN.reddshrimpandherring.com
 ZSdLCe14.reddshrimpandherring.com
 ```
 
+subdomians: reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+```bash
+05lusaWy.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+0bLbK94Z.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+0gHMI0EI.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+1FjuRiR8.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+1.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+1Th0dQuT.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+282DOxFJ.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+2a3XH03l.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+2DA0w7Jt.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+2fHPxt2H.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+2Gu7zRXL.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+2VPCMWzB.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+2vy.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+30d1RFWu.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+32eplH1b.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+3dTlY7.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+3Dz6rCU.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+3gEtiL6U.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+3.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+3U.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+44ujVBuF.reddshrimpandherring.com.us-west-1.ec2-utilities.amazonaws.com
+      ...
+```
 
+subdomain: reddshrimpandherring.com.windomain.local
 
+```bash
+05lusaWy.reddshrimpandherring.com.windomain.local
+0bLbK94Z.reddshrimpandherring.com.windomain.local
+0gHMI0EI.reddshrimpandherring.com.windomain.local
+1FjuRiR8.reddshrimpandherring.com.windomain.local
+1Th0dQuT.reddshrimpandherring.com.windomain.local
+1X/s/2vy.reddshrimpandherring.com.windomain.local
+282DOxFJ.reddshrimpandherring.com.windomain.local
+2a3XH03l.reddshrimpandherring.com.windomain.local
+2DA0w7Jt.reddshrimpandherring.com.windomain.local
+2fHPxt2H.reddshrimpandherring.com.windomain.local
+2Gu7zRXL.reddshrimpandherring.com.windomain.local
+2VPCMWzB.reddshrimpandherring.com.windomain.local
+30d1RFWu.reddshrimpandherring.com.windomain.local
+32eplH1b.reddshrimpandherring.com.windomain.local
+3dTlY7.reddshrimpandherring.com.windomain.local
+```
 
+##Wireshark:
 
-
-
-
-
-
-
-
-
-
-
+if you use wireshark and filter the packets using ```dns && ip.addr == 18.217.1.57``` and filtering uisng sting: ```reddshrimpandherring.com SOA``` and use the subdomains we get:<br>
+```bash
+echo "cGijb0NURntkbnNfM3hmMWxfZnR3X2R1YWRiZWVmfQ==" |
+phoCTF{dns_3xf1l_ftw_duadbeef}
+```
 
 ## RESEARCHED QUESTIONS DURING THE INVESTIGATION
 ```
