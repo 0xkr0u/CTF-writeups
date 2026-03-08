@@ -41,17 +41,20 @@ PORT      STATE         SERVICE
 
 ### Service scan & version:
 ```bash
-10:13:42 kr0u@penguin ultratech1 → nmap -sV -p 21,22,82,8081,68 $ip
-Starting Nmap 7.93 ( https://nmap.org ) at 2026-03-08 22:20 EAT
+10:20:16 kr0u@penguin ultratech1 → nmap -sV -p 21,22,82,8081,68,31331 $ip
+Starting Nmap 7.93 ( https://nmap.org ) at 2026-03-08 22:21 EAT
 Nmap scan report for 10.113.133.209
-Host is up (0.22s latency).
+Host is up (0.25s latency).
 
-PORT     STATE  SERVICE VERSION
-21/tcp   open   ftp     vsftpd 3.0.5
-22/tcp   open   ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.13 (Ubuntu Linux; protocol 2.0)
-68/tcp   closed dhcpc
-82/tcp   closed xfer
-8081/tcp open   http    Node.js Express framework
+PORT      STATE  SERVICE VERSION
+21/tcp    open   ftp     vsftpd 3.0.5
+22/tcp    open   ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.13 (Ubuntu Linux; protocol 2.0)
+68/tcp    closed dhcpc
+82/tcp    closed xfer
+8081/tcp  open   http    Node.js Express framework
+31331/tcp open   http    Apache httpd 2.4.41 ((Ubuntu))
 Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
-
 ```
+
+
+
