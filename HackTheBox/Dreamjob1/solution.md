@@ -94,4 +94,12 @@ Answer: ```Operation Interception``` Source: ```Mitre Att&ck```
 During Operation Dream Job, there were the two system binaries used for proxy execution. One was Regsvr32, what was the other?
 Answer: ```Rundll32``` Source: ```Mitre Att&ck```
 What lateral movement technique did the adversary use?
-Answer: ```Internal Spearphishing```
+Answer: ```Internal Spearphishing``` Source:  ```Mitre Att&ck``` 
+NB: This wasn't straight foward as i though password spraying was the technique used evidently ```Lazarus Group malware attempts to connect to Windows shares for lateral movement by using a generated list of usernames, which center around permutations of the username Administrator, and weak passwords.``` But had to resort to something that touches on sending the .doc to the victim.
+What is the technique ID for the previous answer?
+Answer: ```T1534```
+What Remote Access Trojan did the Lazarus Group use in Operation Dream Job?
+Answer: ```DRATzarus```
+What technique did the malware use for execution?
+Answer: ```Native API```
+
