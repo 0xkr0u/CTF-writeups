@@ -18,7 +18,7 @@ We can begin with Virus total
   <thead>
     <tr>
       <th>MD5</th>
-      <th>Name</th>
+      <th> Virus Total Name</th>
       </tr>
   </thead>
   <tbody>
