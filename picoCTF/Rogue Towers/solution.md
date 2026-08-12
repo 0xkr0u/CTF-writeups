@@ -12,7 +12,7 @@ So to begin ,we can use our who...what questions
 [3] who is doing it ? `IP address: 10.100.55.55` <br>
 [4] what is being exfiltration ? `encoded strings` <br>
 derived questions: <br>
-[5] Where is this server posting to ? '198.51.100.244'<br>
+[5] Where is this server posting to ? `198.51.100.244` <br>
 [6] Any suspicous request headers? `user agent anomaly detection.` <br>
 
 Now we begin scraping exfiltration of the data taken out <br>
