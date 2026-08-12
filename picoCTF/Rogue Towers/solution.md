@@ -1,3 +1,5 @@
+<img width="500" height="281" alt="rogue-amendiares-cyberpunk-2077-v0-vu6izzfa7a8d1" src="https://github.com/user-attachments/assets/a79ba91b-2168-472c-ba61-21b214521ddc" />
+<br>
 # Rogue Towers Writeup
 
 So we are presented with a particular `.pcap` file that should be able to help us identify a unusual behavior in the network.
